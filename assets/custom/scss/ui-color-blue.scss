@@ -1,0 +1,70 @@
+
+// Dark Blue UI
+
+
+.sidebar-left #sidebar-wrapper,
+.sidebar-right #sidebar-wrapper,
+.sidebar-left .bottom-widget,
+.sidebar-right .bottom-widget {
+  background: #13293D;
+}
+
+.sidebar-left .side-widget input,
+.sidebar-right .side-widget input {
+  background: #133448;
+}
+
+.navbar h1 a,
+.cbp-af-header.cbp-af-header-shrink h1 a {
+  color: #133448;
+}
+
+.navbar .navbar-nav > li > a,
+.cbp-af-header.cbp-af-header-shrink .navbar-nav > li > a {
+  color: #133448;
+  &:hover {color: $hovercolor;}
+}
+
+.dropdown-menu {
+  background: #133448;
+  li {
+    a {
+      &:hover, &:focus {background: $hovercolor;}
+    }
+  }
+}
+
+.port-filter ul li a {
+  background: #133448;
+}
+
+#about-hero-image .hero-wrapper .hero-text, #portfolio-hero-image .hero-wrapper .hero-text, #blog-hero-image .hero-wrapper .hero-text, #contact-hero-image .hero-wrapper .hero-text, #blog-grid-hero-image .hero-wrapper .hero-text {
+  background: rgba(232,241,242,.6);
+}
+
+#about-hero-image h2, #portfolio-hero-image h2, #blog-hero-image h2, #contact-hero-image h2, #blog-grid-hero-image h2 {
+  color: $hovercolor;
+}
+
+#services {
+  //h4 {color: #006494;}
+  i {color: $hovercolor;}
+}
+
+#goal div.progressBar {
+  background: #006494;
+}
+
+#counts {
+  i {color: $hovercolor;}
+}
+
+.bottom-widget {
+  i {color: #3b5773;}
+}
+
+.sidebar-left #menu-toggle,
+.sidebar-right #menu-toggle {
+  background: rgba(255, 255, 255, 0.06);
+  color: #88a2c1;
+}

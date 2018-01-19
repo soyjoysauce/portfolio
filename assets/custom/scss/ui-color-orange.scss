@@ -1,0 +1,71 @@
+
+// Green UI
+
+
+.sidebar-left #sidebar-wrapper,
+.sidebar-right #sidebar-wrapper,
+.sidebar-left .bottom-widget,
+.sidebar-right .bottom-widget {
+  background: #f54d3a;
+}
+
+.sidebar-left .side-widget input,
+.sidebar-right .side-widget input {
+  background: #f56b5c;
+  color: $color00;
+}
+
+.navbar h1 a,
+.cbp-af-header.cbp-af-header-shrink h1 a {
+  color: #F55536;
+}
+
+.navbar .navbar-nav > li > a,
+.cbp-af-header.cbp-af-header-shrink .navbar-nav > li > a {
+  color: #F55536;
+  &:hover {color: $hovercolor;}
+}
+
+.dropdown-menu {
+  background: #F55536;
+  li {
+    a { color: $color00;
+      &:hover, &:focus {background: $hovercolor;}
+    }
+  }
+}
+
+.port-filter ul li a {
+  background: #F55536;
+}
+
+#about-hero-image .hero-wrapper .hero-text, #portfolio-hero-image .hero-wrapper .hero-text, #blog-hero-image .hero-wrapper .hero-text, #contact-hero-image .hero-wrapper .hero-text, #blog-grid-hero-image .hero-wrapper .hero-text {
+  background: rgba(204, 204, 204, 0.2);
+}
+
+#about-hero-image h2, #portfolio-hero-image h2, #blog-hero-image h2, #contact-hero-image h2, #blog-grid-hero-image h2 {
+  color: #F55536;
+}
+
+#services {
+  //h4 {color: #006494;}
+  i {color: #F55536;}
+}
+
+#goal div.progressBar {
+  background: #C5C392;
+}
+
+#counts {
+  i {color: #F55536;}
+}
+
+.bottom-widget {
+  i {color: #ff7f74;}
+}
+
+.sidebar-left #menu-toggle,
+.sidebar-right #menu-toggle {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffb8a5;
+}

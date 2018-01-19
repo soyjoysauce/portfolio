@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="648px" height="648px" viewBox="2.25 2.25 648 648"
+	 overflow="visible" enable-background="new 2.25 2.25 648 648" xml:space="preserve">
+<defs>
+</defs>
+<g id="XMLID_1_">
+	<g>
+		<path fill="#231F20" d="M650.25,74.25v504c0,39.78-32.22,72-72,72h-504c-39.72,0-72-32.22-72-72v-504c0-39.78,32.28-72,72-72h504
+			C618.03,2.25,650.25,34.47,650.25,74.25z M632.79,565.53V88.71c0-37.62-30.479-68.1-68.1-68.1H87.87
+			c-37.62,0-68.1,30.48-68.1,68.1v476.82c0,37.62,30.48,68.1,68.1,68.1h476.82C602.311,633.63,632.79,603.15,632.79,565.53z"/>
+		<path fill="#A6A8AB" d="M592.47,390.21v220.08H289.17V390.21h97.56C499.17,516.391,592.47,390.21,592.47,390.21z"/>
+		<path fill="#F1F1F2" d="M526.53,224.43c38.52,14.46,65.939,51.66,65.939,95.28c0,56.28-45.6,101.82-101.819,101.82
+			s-101.82-45.54-101.82-101.82c0-56.22,45.601-101.82,101.82-101.82C503.311,217.89,515.37,220.17,526.53,224.43z"/>
+		<rect x="180.99" y="50.25" fill="#58595B" width="303.3" height="21.24"/>
+		<path fill="#FFFFFF" d="M295.53,201.69v5.82c0,42.78-67.92,39.6-67.92,39.6H60.09v-45.42H295.53z"/>
+		<polygon fill="#FFFFFF" points="259.47,480.931 259.47,610.29 159.81,545.61 		"/>
+		<rect x="60.09" y="390.21" fill="#58595B" width="199.38" height="58.8"/>
+		<polygon fill="#FFFFFF" points="259.47,480.931 159.81,545.61 60.09,480.931 		"/>
+		<polygon fill="#FFFFFF" points="259.47,610.29 60.09,610.29 159.81,545.61 		"/>
+		<polygon fill="#FFFFFF" points="159.81,545.61 60.09,610.29 60.09,480.931 		"/>
+		<polygon fill="#FFFFFF" points="155.49,50.25 155.49,159.27 107.79,104.79 		"/>
+		<polygon fill="#FFFFFF" points="155.49,50.25 107.79,104.79 60.09,50.25 		"/>
+		<polygon fill="#FFFFFF" points="107.79,104.79 155.49,159.27 60.09,159.27 		"/>
+		<polygon fill="#FFFFFF" points="60.09,50.25 107.79,104.79 60.09,159.27 		"/>
+	</g>
+	<g>
+		<path fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" d="M650.25,578.25
+			c0,39.78-32.22,72-72,72h-504c-39.72,0-72-32.22-72-72v-504c0-39.78,32.28-72,72-72h504c39.78,0,72,32.22,72,72V578.25z"/>
+		
+			<rect x="60.09" y="50.25" fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" width="95.4" height="109.02"/>
+		
+			<rect x="180.99" y="50.25" fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" width="303.3" height="21.24"/>
+		
+			<line fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" x1="180.99" y1="90.57" x2="592.47" y2="90.57"/>
+		
+			<line fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" x1="180.99" y1="105.81" x2="592.47" y2="105.81"/>
+		
+			<line fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" x1="180.99" y1="121.11" x2="592.47" y2="121.11"/>
+		<path fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" d="M592.47,201.69H295.53
+			H60.09v45.42h167.52c0,0,67.92,3.18,67.92-39.6"/>
+		<path fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" d="M592.47,319.71
+			c0,56.28-45.6,101.82-101.819,101.82s-101.82-45.54-101.82-101.82c0-56.22,45.601-101.82,101.82-101.82
+			c12.66,0,24.72,2.28,35.88,6.54C565.05,238.89,592.47,276.09,592.47,319.71z"/>
+		
+			<rect x="60.09" y="480.931" fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" width="199.38" height="129.359"/>
+		
+			<line fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" x1="60.09" y1="276.57" x2="337.95" y2="276.57"/>
+		
+			<line fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" x1="60.09" y1="297.93" x2="337.95" y2="297.93"/>
+		
+			<line fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" x1="60.09" y1="319.35" x2="337.95" y2="319.35"/>
+		
+			<line fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" x1="60.09" y1="340.71" x2="337.95" y2="340.71"/>
+		
+			<line fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" x1="60.09" y1="362.07" x2="337.95" y2="362.07"/>
+		<path fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" d="M289.17,390.21v220.08
+			H592.47V390.21c0,0-93.3,126.181-205.739,0H289.17z"/>
+		
+			<rect x="60.09" y="390.21" fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" width="199.38" height="58.8"/>
+		<polyline fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" points="
+			60.09,480.931 159.81,545.61 259.47,610.29 		"/>
+		<polyline fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" points="60.09,610.29 
+			159.81,545.61 259.47,480.931 		"/>
+		<polyline fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" points="60.09,50.25 
+			107.79,104.79 155.49,159.27 		"/>
+		<polyline fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" points="155.49,50.25 
+			107.79,104.79 60.09,159.27 		"/>
+		<path fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" d="M632.79,565.53
+			c0,37.62-30.479,68.1-68.1,68.1H87.87c-37.62,0-68.1-30.479-68.1-68.1V88.71c0-37.62,30.48-68.1,68.1-68.1h476.82
+			c37.62,0,68.1,30.48,68.1,68.1V565.53z"/>
+		<polyline fill="none" stroke="#231F20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" points="
+			526.53,224.43 490.65,319.71 583.83,278.73 		"/>
+	</g>
+</g>
+<rect x="179.87" y="135.275" fill="none" width="290.596" height="59.988"/>
+<text transform="matrix(1 0 0 1 179.8726 182.1338)" fill="#231F20" font-family="'MyriadPro-Regular'" font-size="66">UX Design</text>
+</svg>

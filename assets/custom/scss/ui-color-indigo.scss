@@ -1,0 +1,71 @@
+
+// Red UI
+
+
+.sidebar-left #sidebar-wrapper,
+.sidebar-right #sidebar-wrapper,
+.sidebar-left .bottom-widget,
+.sidebar-right .bottom-widget {
+  background: #114B5F;
+}
+
+.sidebar-left .side-widget input,
+.sidebar-right .side-widget input {
+  background: #12596e;
+  color: $color00;
+}
+
+.navbar h1 a,
+.cbp-af-header.cbp-af-header-shrink h1 a {
+  color: #12596e;
+}
+
+.navbar .navbar-nav > li > a,
+.cbp-af-header.cbp-af-header-shrink .navbar-nav > li > a {
+  color: #12596e;
+  &:hover {color: $hovercolor;}
+}
+
+.dropdown-menu {
+  background: #12596e;
+  li {
+    a {
+      &:hover, &:focus {background: $hovercolor;}
+    }
+  }
+}
+
+.port-filter ul li a {
+  background: #12596e;
+}
+
+#about-hero-image .hero-wrapper .hero-text, #portfolio-hero-image .hero-wrapper .hero-text, #blog-hero-image .hero-wrapper .hero-text, #contact-hero-image .hero-wrapper .hero-text, #blog-grid-hero-image .hero-wrapper .hero-text {
+  background: rgba(204, 204, 204, 0.2);
+}
+
+#about-hero-image h2, #portfolio-hero-image h2, #blog-hero-image h2, #contact-hero-image h2, #blog-grid-hero-image h2 {
+  color: #12596e;
+}
+
+#services {
+  //h4 {color: #006494;}
+  i {color: #12596e;}
+}
+
+#goal div.progressBar {
+  background: #12596e;
+}
+
+#counts {
+  i {color: #12596e;}
+}
+
+.bottom-widget {
+  i {color: #598590;}
+}
+
+.sidebar-left #menu-toggle,
+.sidebar-right #menu-toggle {
+  background: rgba(255, 255, 255, 0.08);
+  color: #80aaaf;
+}
