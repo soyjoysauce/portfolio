@@ -83,7 +83,7 @@
         // About Video slider
 
         $("#slider4").revolution({
-            sliderType: "standart",
+            sliderType: "standard",
             sliderLayout: "fullwidth",
             autoHeight: "off",
             delay: 9000,
