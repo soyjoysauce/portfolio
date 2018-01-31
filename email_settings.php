@@ -1,7 +1,7 @@
 <?php
 
 // FIXME: Update this to your desired email address.
-$recipient = "your@email.com";
+$recipient = "soyjoysauce@gmail.com";
 
 // FIXME: Update subject if necessary.
-$subject = "New contact from $name";
+$subject = "New contact reached out to you from your webPortfolio from $name";
