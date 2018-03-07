@@ -152,8 +152,8 @@ class slideMaker {
       $("#myLi").append(
         myImg.info.clone(),
         divSlide1.info.clone(),
-        divSlide2.info,
-        divSlide3.info
+        divSlide2.info.clone(),
+        divSlide3.info.clone()
       );
       // $("#myImg").append(divSlide1.info.clone());
 
