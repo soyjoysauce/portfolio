@@ -1,5 +1,9 @@
-//**  this js file is for creating **//
+//**  this js file is created by Soyoung Bae **//
+// 1.) Made dynamic objects to insert into the DOM to flow with template's dependencies
+// I learned alot about Jquery and the source code's diffent methods of reading different types of wrap on strings. 
 
+// 2.) Made a simple slide carousel to lessen the dependencies and load time on Javascript
+// frustrated with the performance of dependencies. 
 $(document).ready(init);
 
 function init() {
@@ -31,6 +35,47 @@ class slideMaker {
     ];
 
     this.makeSlides();
+    this.carousel();
+  }
+  carousel() {
+    let box = document.querySelector(".carousel_box");
+    let next = box.querySelector(".next");
+    let prev = box.querySelector(".prev");
+    let img_slide = box.querySelectorAll(".content li");
+
+    let counter = 0;
+    let amount = img_slide.length;
+    let current = img_slide[0];
+    //add the class of “active” to box to trigger it's CSS
+    box.classList.add("active");
+
+//function takes you thru the array by removing and adding class to selected DOM element
+  //parameter(direction):defines if we should go backwards (negative) or forwards in the carousel  
+  function navigate_carousel(direction) {
+    //hides the current one
+      current.classList.remove("current");
+      // increments the counter in the new direction
+      counter = counter + direction;
+      //
+      if (direction === -1 && counter < 0) {
+        counter = amount - 1;
+      }
+      //make sure the counter does not go beyond the available
+      if (direction === 1 && !img_slide[counter]) {
+        counter = 0;
+      }
+      current = img_slide[counter];
+      current.classList.add("current");
+    }
+//adds a event listener to the navigation buttons
+    next.addEventListener("click", function(event) {
+      navigate_carousel(1);
+    });
+    prev.addEventListener("click", function(event) {
+      navigate_carousel(-1);
+    });
+    //show the first carousel item by calling navigate with 0 as the value
+    navigate_carousel(0);
   }
 
   makeSlides() {
@@ -146,84 +191,49 @@ class slideMaker {
         })
       };
 
+      let my_new_Li = {
+        info: $("<li>", {
+          // "data-transition": "fade",
+          // "data-slotamount": "1",
+          // "data-masterspeed": "1000",
+          // "data-saveperformance": "off",
+          // "data-title": "Slide",
+          id: "my_new_Li"
+        })
+      };
+
+      let my_new_Img = {
+        info: $("<img>", {
+          // id: "my_new_Img",
+          src: image,
+          class: "my_new_Img"
+          // style: "filter:brightness(20%)",
+          // alt: "fullslide2",
+          // "data-bgposition": "center center",
+          // "data-bgfit": "cover",
+          // "data-bgrepeat": "no-repeat"
+        })
+      };
+
       //create a node buffer that builds the array structure before sending to the dom
 
       $("#div_carousel").prepend(myLi.info.clone());
       $("#myLi").append(
         myImg.info.clone(),
         divSlide1.info.clone(),
-        divSlide2.info.clone(),
+        divSlide2.info.clone()
         // divSlide3.info.clone()
       );
-      // $("#myImg").append(divSlide1.info.clone());
-
-      // $("<div>", { id: "div_SLIDEDIV" })
-      //   .prepend(divSlide1.info.clone())
-      //   .prepend(divSlide2.info.clone())
-      //   .prepend(divSlide3.info.clone())
-      // .appendTo("#myImg");
+      $("#new_carousel").prepend(my_new_Li.info.clone());
+      $("#my_new_Li").append(
+        my_new_Img.info.clone()
+        // divSlide1.info.clone(),
+        // divSlide2.info.clone(),
+        // divSlide3.info.clone()
+      );
     });
   }
 }
-
-// $("<ul/>", { id: "div_carousel" })
-//   .prepend(myLi.info.clone())
-//   .prepend(myImg.info.clone())
-//   .append(divSlides)
-//   .appendTo("#Slider1");
-
-// $("#div_carousel").find('#imageSlide1');
-// $("#myLi").append(imageSlide2.info.clone());
-// $("#myLi").append(imageSlide3.info.clone());
-
-/* <span>span</span>
-<p>p</p>
-<p>p</p>
-<div>div</div>
-<span>span</span>
-<p>p</p>
-<div>div</div>
-<b></b>
- 
-<script>
-var list = $( "div, p, span" )
-  .map( function() {
-    return this.tagName;
-  })
-  .get()
-  .join( ", " );
-$( "b" ).append( document.createTextNode( list ) );
-</script>
- 
-</body> */
-
-// for (var i = 0; i < 10; i++) {
-//   (function(index) {
-//     var button = $("<button>")
-//       .text("Button " + index)
-//       .on("click", function() {
-//         console.log("Current value of i: ", index);
-//       });
-//     $("body").append(button);
-//   })(i);
-// }
-
-// let image_arr = this.imageArray;
-//     let carousel_slot = this.carouselSlot;
-//     let counter = 1;
-//     while (carousel_slot.length !== image_arr.length) {
-//       let carouselSlide = {
-//         id: counter,
-//         slide: image_arr[randomNum],
-//         info: $("<div>", {
-//           id: counter,
-//           slide: image_arr[randomNum]
-//         })
-//       };
-//       $(".carousel").append(carouselSlide.info.clone());
-//       counter++;
-//     }
-//   }
 
 //   <!-- this is a layer that i have to inser into every li tag-->
 //                                 <!-- LAYER NR. 1 -->
