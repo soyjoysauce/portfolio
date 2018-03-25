@@ -11,11 +11,14 @@
 <meta name="keywords" content="">
 <link rel=icon href=favicon.ico sizes="16x16" type="image/png">
 <!-- JS -->
-<script src="assets/vendor/animatedheader/js/modernizr.custom.js"></script>
+
+<!-- Latest compiled and minified CSS BOOTSTRAP-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
 
 <!-- CSS -->
-<link href="assets/vendor/bootstrap/css/bootstrap.min.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"
-/>
+<!-- <link href="assets/vendor/bootstrap/css/bootstrap.min.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"
+/> -->
 <link href="assets/vendor/pe-icon-7-stroke/css/pe-icon-7-stroke.css" property='stylesheet' rel="stylesheet" type="text/css"
     media="screen" />
 <link href="assets/vendor/mfp/css/magnific-popup.min.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"
@@ -31,8 +34,8 @@
 <link href="assets/vendor/owl-carousel/assets/owl.carousel.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"
 />
 <link href="assets/custom/css/style.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/custom/css/soy_style.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen" />
 </head>
-
 <body class="">
     <!--Pre-Loader-->
     <div id="preloader">
@@ -65,26 +68,30 @@
             <div class="side-widget">
                 <h6 class="font-accident-one-bold e-uppercase">Welcome to my portfolio</h6>
                 <p class="small">
-                    - Scroll down for projects.
+                    I am a Junior Web developer / Designer with a BA in Art History and Art from UC Davis. </br>
+                    I love reading books, making a mess with colors, and collecting
+                    sew-on patches and rocks. Never picky about food,but I always crave Chick-fil-A
+                    on a Sunday like clockwork.
                 </p>
                 <p>soyjoysauce@gmail.com</p>
             </div>
             <div class="side-widget">
                 <!-- sidebar icons -->
-        <div>
-                <a href="https://www.linkedin.com/in/soyjoysauce/" target="_blank">
-                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                  <span style="color:white">My Linkedin page</span>
-                </a><br/>
-                <a href="https://github.com/soyjoysauce" target="_blank">
-                  <i class="fa fa-github" aria-hidden="true"></i>
-                  <span style="color:white">My Github profile</span>
-                </a>
-              </div>
-              <i class="fa fa-envelope" aria-hidden="true"></i>
-              <span>soyjoysauce@gmail.com</span>
-              <p class="small"> © 2017 soyjoysauce</p>
-              <!-- /sidebar icons -->
+                <div>
+                    <a href="https://www.linkedin.com/in/soyjoysauce/" target="_blank">
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        <span style="color:white">My Linkedin page</span>
+                    </a>
+                    <br/>
+                    <a href="https://github.com/soyjoysauce" target="_blank">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                        <span style="color:white">My Github profile</span>
+                    </a>
+                </div>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>soyjoysauce@gmail.com</span>
+                <p class="small"> © 2017 soyjoysauce</p>
+                <!-- /sidebar icons -->
             </div>
         </div>
         <!-- /Sidebar -->
@@ -96,7 +103,7 @@
                     <div class="navbar navbar-default" role="navigation">
                         <div class="container-fluid padding-side-50">
                             <!-- Brand and toggle get grouped for better mobile display -->
-                            <div class="navbar-header" style="text-shadow: -1px -1px 0 rgb(255, 255, 255),1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);">
+                            <div class="navbar-header nav_bar_soy">
                                 <h1>
                                     <a href="index.html">Soyoung Bae</a>
                                 </h1>
@@ -136,18 +143,31 @@
             <!-- /Header -->
             <!-- Content Sections -->
             <div id="content">
-                <!-- Revolution Slider -->
-                <section class="slider-revolution">
-
+                <!-- Revolution Slider THIS IS FOR TEMPLATE- commented out to clean js dependencies-->
+                <!-- <section class="slider-revolution">
                     <div class="rev_slider_wrapper">
 
                         <div id="slider1" class="rev_slider head-overlay" data-version="5.0">
                             <ul id="div_carousel">
-                                <!-- START SLIDE (15 images) -->
-                                <!-- End of Slide Show -->
+                                START SLIDE (15 images)
+                                End of Slide Show
                             </ul>
                             <div class="tp-bannertimer"></div>
                         </div>
+                    </div>
+                </section> -->
+                <section class="carousel_section col-sm-12 col-md-12 col-lg-12">
+                    <div class="carousel_box buttons col-sm-12 col-md-12 col-lg-12">
+                        <button class="prev col-sm-1  col-md-1 col-lg-1">
+                            ◀
+                            <span class="offscreen">Previous</span>
+                        </button>
+                        <ul id="new_carousel" class="content col-sm-10 col-md-10 col-lg-10">
+                        </ul>
+                        <button class="next col-sm-1 col-md-1 col-lg-1">
+                            ▶
+                            <span class="offscreen">Next</span>
+                        </button>
                     </div>
                 </section>
                 <!-- /Revolution Slider -->
@@ -156,18 +176,13 @@
                     <div class="container-fluid padding-side-50">
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
-                                <div class="dividewhite3"></div>
-                                <img src="assets/custom/images/soy-image/soyB_img.jpeg" style="display:inline-block; box-shadow:5px 5px #121e22" height="200px"
-                                    width="200px" class="e-centered img-responsive" alt="profile" />
+                                <img src="assets/custom/images/soy-image/soyB_img.png" class="e-centered img-responsive profile_pic" alt="profile" />
                                 <div class="rd-medal e-centered" style="display:inline-block">
                                     </br>
                                     <i class="pe-7s-coffee">About</i>
-                                    <p class="small">
-                                        I am a front-end developer with a BA in Art History and Art from UC Davis. Creative problem-solving and starting design-minded
-                                        projects is her passion. In real life she lives in Orange County, Ca. In her spare
-                                        time she loves reading books, learning ,make art for internet things, and collect
-                                        fabric patches and rocks. Never picky about food, but I always crave Chick-fil-A
-                                        on a Sunday like clockwork.
+                                    <p class="medium">
+                                        I am a Junior Web developer/Designer who's able to build testable and efficient code from ground up using current best practices -- from concept, navigation,layout and programming to UX | UI Design. 
+                                        I am a team player who is proficient in an array of modern Web tools but always looking to learn new skills in a fast-paced environment. 
                                     </p>
                                 </div>
                                 <div class="e-divider-dynamic"></div>
@@ -181,7 +196,7 @@
                     <h1 class="text-center">Projects</h1>
                     <div class="light">
                         <!--side menu for item types in portfolio-->
-                        <div id="isotope-filters" class="port-filter text-right">
+                        <!-- <div id="isotope-filters" class="port-filter text-right">
                             <ul>
                                 <li>
                                     <a href="#cat1" data-filter="*">All</a>
@@ -196,7 +211,7 @@
                                     <a href="#cat4" data-filter=".misc">misc</a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
                         <!--side menu for item types in portfolio-->
                         <div class="dividewhite4"></div>
                         <div class="grid container-fluid">
@@ -206,7 +221,7 @@
                                 <div class="grid-item grid-sizer dev col-lg-3 col-md-4 col-sm-6 nopadding">
                                     <div class="item-wrap">
                                         <figure class="effect-goliath">
-                                            <img src="assets/custom/images/soy-image/board-game-scout/color-logo.svg" class="img-responsive" alt="board-game-scout" />
+                                            <img src="assets/custom/images/soy-image/board-game-scout/color-logo.png" class="img-responsive" alt="board-game-scout" />
                                             <figcaption>
                                                 <div class="fig-description" style="bottom:0%; background-color:rgba(255, 255, 255, 0.9)">
                                                     <h3>Board Game Scout</h3>
@@ -236,7 +251,7 @@
                                 <div class="grid-item grid-sizer dev col-lg-3 col-md-4 col-sm-6 nopadding">
                                     <div class="item-wrap">
                                         <figure class="effect-goliath">
-                                            <img src="assets/custom/images/soy-image/jewelMatch3/jewel_tile.svg" class="img-responsive" alt="jewel-tiles" />
+                                            <img src="assets/custom/images/soy-image/jewelMatch3/jewel_tile.png" class="img-responsive" alt="jewel-tiles" />
                                             <figcaption>
                                                 <div class="fig-description" style="bottom:0%; background-color:rgba(255, 255, 255, 0.9)">
                                                     <h3>Jewel Tiles</h3>
@@ -292,46 +307,46 @@
                                 <div>
                                     <h3>
                                         <i class="pe-7s-box2"></i>Foundation</h3>
-                                    <img src="assets/custom/images/soy-image/skills-icon/html5.svg" height="200px" width="180px" alt="html5" />
-                                    <img src="assets/custom/images/soy-image/skills-icon/CSS3.svg" height="200px" width="180px" alt="css3" />
-                                    <img src="assets/custom/images/soy-image/skills-icon/JS.svg" height="200px" width="180px" alt="JS" />
+                                    <img src="assets/custom/images/soy-image/skills-icon/html5.png" height="200" width="180" alt="html5" />
+                                    <img src="assets/custom/images/soy-image/skills-icon/CSS3.png" height="200" width="180" alt="css3" />
+                                    <img src="assets/custom/images/soy-image/skills-icon/JS.png" height="200px" width="180" alt="JS" />
                                 </div>
                                 <div>
                                     <h3>
                                         <i class="pe-7s-science"></i>Libraries/API</h3>
-                                    <img src="assets/custom/images/soy-image/skills-icon/jquery.svg" height="200px" width="180px" alt="jquery" />
-                                    <img src="assets/custom/images/soy-image/skills-icon/Boostrap_logo.svg" height="200px" width="180px" alt="bootstrap" />
+                                    <img src="assets/custom/images/soy-image/skills-icon/jquery.png" height="200px" width="180px" alt="jquery" />
+                                    <img src="assets/custom/images/soy-image/skills-icon/Boostrap_logo.png" height="200px" width="180px" alt="bootstrap" />
 
                                 </div>
                                 <div>
                                     <h3>
                                         <i class="pe-7s-server"></i>Framework/Backend</h3>
-                                    <img src="assets/custom/images/soy-image/skills-icon/nodejs-icon.svg" height="200px" width="180px" alt="node" />
-                                    <img src="assets/custom/images/soy-image/skills-icon/php-logo.svg" height="200px" width="180px" alt="php" />
-                                    <img src="assets/custom/images/soy-image/skills-icon/react.svg" height="200px" width="180px" alt="React" />
+                                    <img src="assets/custom/images/soy-image/skills-icon/nodejs-icon.png" height="200px" width="180px" alt="node" />
+                                    <img src="assets/custom/images/soy-image/skills-icon/php-logo.png" height="200px" width="180px" alt="php" />
+                                    <img src="assets/custom/images/soy-image/skills-icon/react.png" height="200px" width="180px" alt="React" />
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div>
                                     <h3>
                                         <i class="pe-7s-magic-wand"></i>Adobe Suite</h3>
-                                    <img src="assets/custom/images/soy-image/skills-icon/photoshop-cc.svg" height="200px" width="180px" alt="PS" />
-                                    <img src="assets/custom/images/soy-image/skills-icon/adobe-illustrator-cc.svg" height="200px" width="180px" alt="AI" />
-                                    <img src="assets/custom/images/soy-image/skills-icon/indesign-cc.svg" height="200px" width="180px" alt="ID" />
+                                    <img src="assets/custom/images/soy-image/skills-icon/photoshop-cc.png" height="200px" width="180px" alt="PS" />
+                                    <img src="assets/custom/images/soy-image/skills-icon/adobe-illustrator-cc.png" height="200px" width="180px" alt="AI" />
+                                    <img src="assets/custom/images/soy-image/skills-icon/indesign-cc.png" height="200px" width="180px" alt="ID" />
                                 </div>
                                 <div>
                                     <h3>
                                         <i class="pe-7s-crop"></i>Creative</h3>
-                                    <img src="assets/custom/images/soy-image/skills-icon/ux.svg" height="200px" width="180px" alt="UX" />
-                                    <img src="assets/custom/images/soy-image/skills-icon/Ui.svg" height="200px" width="180px" alt="UI" />
-                                    <img src="assets/custom/images/soy-image/skills-icon/design.svg" height="200px" width="180px" alt="design" />
+                                    <img src="assets/custom/images/soy-image/skills-icon/ux.png" height="200px" width="180px" alt="UX" />
+                                    <img src="assets/custom/images/soy-image/skills-icon/Ui.png" height="200px" width="180px" alt="UI" />
+                                    <img src="assets/custom/images/soy-image/skills-icon/design.png" height="200px" width="180px" alt="design" />
                                 </div>
                                 <div>
                                     <h3>
                                         <i class="pe-7s-tools"></i>Dev Tools</h3>
-                                    <img src="assets/custom/images/soy-image/skills-icon/V8-chrome.svg" height="200px" width="180px" alt="chomeV8" />
-                                    <img src="assets/custom/images/soy-image/skills-icon/Octocat.svg" height="200px" width="180px" alt="gitHub" />
-                                    <img src="assets/custom/images/soy-image/skills-icon/postman.svg" height="200px" width="180px" alt="postman" />
+                                    <img src="assets/custom/images/soy-image/skills-icon/V8-chrome.png" height="200px" width="180px" alt="chomeV8" />
+                                    <img src="assets/custom/images/soy-image/skills-icon/Octocat.png" height="200px" width="180px" alt="gitHub" />
+                                    <img src="assets/custom/images/soy-image/skills-icon/postman.png" height="200px" width="180px" alt="postman" />
                                 </div>
                             </div>
                         </div>
@@ -344,9 +359,7 @@
                         <div>
                             <h3 class="font-accident-two-normal e-uppercase text-center">Questions? Message Here</h3>
                             <div class="e-divider-1"></div>
-                            <p class="small fontcolor-medium text-center">
-
-                            </p>
+                            <p class="small fontcolor-medium text-center"></p>
                         </div>
                         <div class="e-divider-4"></div>
                         <div class="row">
@@ -390,33 +403,34 @@
     </div>
     <div id="image-cache" class="hidden"></div>
     <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- Custom scripts -->
+    <script src="assets/custom/js/main.js" type="text/javascript"></script>
+    <script src="assets/custom/js/script.js" type="text/javascript"></script>
 
-    <script src="assets/vendor/jquery/js/jquery-2.2.0.min.js" type="text/javascript"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="assets/vendor/animatedheader/js/classie.js"></script>
-    <script src="assets/vendor/animatedheader/js/cbpAnimatedHeader.min.js"></script>
-    <script type="text/javascript" src="assets/vendor/imagesloaded/js/imagesloaded.pkgd.min.js"></script>
-    <script type="text/javascript" src="assets/vendor/isotope/js/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="assets/vendor/jquery-parallax/js/jquery.parallax-1.1.3.js"></script>
-    <script src="assets/vendor/mfp/js/jquery.magnific-popup.min.js" type="text/javascript"></script>
-    <script src="assets/vendor/anicounter/jquery.counterup.min.js" type="text/javascript"></script>
-    <script src="assets/vendor/circle-progress/circle-progress.min.js" type="text/javascript"></script>
-    <script src="assets/vendor/waypoints/waypoints.min.js" type="text/javascript"></script>
-    <script src="assets/vendor/goalprogress/goalProgress.min.js" type="text/javascript"></script>
-    <script src="assets/vendor/owl-carousel/owl.carousel.js" type="text/javascript"></script>
-
-    <script type="text/javascript" src="assets/vendor/rs-plugin/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
-    <script type="text/javascript" src="assets/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
-    <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <!-- <script src="assets/vendor/animatedheader/js/modernizr.custom.js"></script> -->
+    <!-- <script src="assets/vendor/jquery/js/jquery-2.2.0.min.js" type="text/javascript"></script> -->
+    <!-- <script src="assets/vendor/animatedheader/js/classie.js"></script> -->
+    <!-- <script src="assets/vendor/animatedheader/js/cbpAnimatedHeader.min.js"></script> -->
+    <!-- <script type="text/javascript" src="assets/vendor/imagesloaded/js/imagesloaded.pkgd.min.js"></script> -->
+    <!-- <script type="text/javascript" src="assets/vendor/isotope/js/isotope.pkgd.min.js"></script> -->
+    <!-- <script type="text/javascript" src="assets/vendor/jquery-parallax/js/jquery.parallax-1.1.3.js"></script> -->
+    <!-- <script src="assets/vendor/mfp/js/jquery.magnific-popup.min.js" type="text/javascript"></script> -->
+    <!-- <script src="assets/vendor/anicounter/jquery.counterup.min.js" type="text/javascript"></script> -->
+    <!-- <script src="assets/vendor/circle-progress/circle-progress.min.js" type="text/javascript"></script> -->
+    <!-- <script src="assets/vendor/waypoints/waypoints.min.js" type="text/javascript"></script> -->
+    <!-- <script src="assets/vendor/goalprogress/goalProgress.min.js" type="text/javascript"></script> -->
+    <!-- <script src="assets/vendor/owl-carousel/owl.carousel.js" type="text/javascript"></script> -->
+    <!-- <script type="text/javascript" src="assets/vendor/rs-plugin/js/jquery.themepunch.tools.min.js?rev=5.0"></script> -->
+    <!-- <script type="text/javascript" src="assets/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js?rev=5.0"></script> -->
+    <!-- <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
     <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
     <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
     <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
     <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
-    <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
-    <!-- Custom scripts -->
-    <script src="assets/custom/js/script.js" type="text/javascript"></script>
-    <script src="assets/custom/js/main.js" type="text/javascript"></script>
+    <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.video.min.js"></script> -->
+
 </body>
 
 </html>
