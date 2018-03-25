@@ -9,185 +9,185 @@
 
     // Slider Revolution
 
-    $("#slider1").revolution({
-      sliderType: "standard",
-      sliderLayout: "fullscreen",
-      autoHeight: "on",
-      delay: 9000,
-      navigation: {
-        keyboardNavigation: "on",
-        keyboard_direction: "horizontal",
-        mouseScrollNavigation: "off",
-        onHoverStop: "on",
-        touch: {
-          touchenabled: "on",
-          swipe_treshold: 75,
-          swipe_min_touches: 1,
-          drag_block_vertical: false,
-          swipe_direction: "horizontal"
-        },
-        arrows: {
-          style: "hades",
-          enable: true,
-          hide_onmobile: true,
-          hide_onleave: true,
-          tmp: "",
-          left: {
-            h_align: "left",
-            v_align: "center",
-            h_offset: 10,
-            v_offset: 0
-          },
-          right: {
-            h_align: "right",
-            v_align: "center",
-            h_offset: 10,
-            v_offset: 0
-          }
-        },
-        bullets: {
-          style: "",
-          enable: false,
-          hide_onmobile: true,
-          hide_onleave: true,
-          hide_delay: 200,
-          hide_delay_mobile: 1200,
-          hide_under: 0,
-          hide_over: 9999,
-          direction: "horizontal",
-          h_align: "center",
-          v_align: "bottom",
-          space: 7,
-          h_offset: 4,
-          v_offset: 40,
-          tmp:
-            '<span class="tp-bullet-image"></span><span class="tp-bullet-title"></span>'
-        }
-      },
-      parallax: {
-        type: "scroll",
-        levels: [
-          5,
-          10,
-          15,
-          20,
-          25,
-          30,
-          35,
-          40,
-          45,
-          50,
-          55,
-          60,
-          65,
-          70,
-          75,
-          80,
-          85
-        ],
-        origo: "enterpoint",
-        speed: 600,
-        bgparallax: "on",
-        disable_onmobile: "on"
-      },
+    // $("#slider1").revolution({
+    //   sliderType: "standard",
+    //   sliderLayout: "fullscreen",
+    //   autoHeight: "on",
+    //   delay: 9000,
+    //   navigation: {
+    //     keyboardNavigation: "on",
+    //     keyboard_direction: "horizontal",
+    //     mouseScrollNavigation: "off",
+    //     onHoverStop: "on",
+    //     touch: {
+    //       touchenabled: "on",
+    //       swipe_treshold: 75,
+    //       swipe_min_touches: 1,
+    //       drag_block_vertical: false,
+    //       swipe_direction: "horizontal"
+    //     },
+    //     arrows: {
+    //       style: "hades",
+    //       enable: true,
+    //       hide_onmobile: true,
+    //       hide_onleave: true,
+    //       tmp: "",
+    //       left: {
+    //         h_align: "left",
+    //         v_align: "center",
+    //         h_offset: 10,
+    //         v_offset: 0
+    //       },
+    //       right: {
+    //         h_align: "right",
+    //         v_align: "center",
+    //         h_offset: 10,
+    //         v_offset: 0
+    //       }
+    //     },
+    //     bullets: {
+    //       style: "",
+    //       enable: false,
+    //       hide_onmobile: true,
+    //       hide_onleave: true,
+    //       hide_delay: 200,
+    //       hide_delay_mobile: 1200,
+    //       hide_under: 0,
+    //       hide_over: 9999,
+    //       direction: "horizontal",
+    //       h_align: "center",
+    //       v_align: "bottom",
+    //       space: 7,
+    //       h_offset: 4,
+    //       v_offset: 40,
+    //       tmp:
+    //         '<span class="tp-bullet-image"></span><span class="tp-bullet-title"></span>'
+    //     }
+    //   },
+    //   parallax: {
+    //     type: "scroll",
+    //     levels: [
+    //       5,
+    //       10,
+    //       15,
+    //       20,
+    //       25,
+    //       30,
+    //       35,
+    //       40,
+    //       45,
+    //       50,
+    //       55,
+    //       60,
+    //       65,
+    //       70,
+    //       75,
+    //       80,
+    //       85
+    //     ],
+    //     origo: "enterpoint",
+    //     speed: 600,
+    //     bgparallax: "on",
+    //     disable_onmobile: "on"
+    //   },
 
-      lazyType: "smart",
-      disableProgressBar: "on",
-      responsiveLevels: [4096, 1024, 778, 480],
-      gridwidth: [1140, 800, 750, 480],
-      gridheight: [800, 600, 980, 700]
-    });
+    //   lazyType: "smart",
+    //   disableProgressBar: "on",
+    //   responsiveLevels: [4096, 1024, 778, 480],
+    //   gridwidth: [1140, 800, 750, 480],
+    //   gridheight: [800, 600, 980, 700]
+    // });
 
     // About Video slider
 
-    $("#slider4").revolution({
-      sliderType: "standard",
-      sliderLayout: "fullwidth",
-      autoHeight: "off",
-      delay: 9000,
-      navigation: {
-        keyboardNavigation: "on",
-        keyboard_direction: "horizontal",
-        mouseScrollNavigation: "off",
-        onHoverStop: "on",
-        touch: {
-          touchenabled: "on",
-          swipe_treshold: 75,
-          swipe_min_touches: 1,
-          drag_block_vertical: false,
-          swipe_direction: "horizontal"
-        },
-        arrows: {
-          style: "hades",
-          enable: false,
-          hide_onmobile: true,
-          hide_onleave: true,
-          tmp: "",
-          left: {
-            h_align: "left",
-            v_align: "center",
-            h_offset: 10,
-            v_offset: 0
-          },
-          right: {
-            h_align: "right",
-            v_align: "center",
-            h_offset: 10,
-            v_offset: 0
-          }
-        },
-        bullets: {
-          style: "",
-          enable: false,
-          hide_onmobile: true,
-          hide_onleave: true,
-          hide_delay: 200,
-          hide_delay_mobile: 1200,
-          hide_under: 0,
-          hide_over: 9999,
-          direction: "horizontal",
-          h_align: "center",
-          v_align: "bottom",
-          space: 7,
-          h_offset: 4,
-          v_offset: 40,
-          tmp:
-            '<span class="tp-bullet-image"></span><span class="tp-bullet-title"></span>'
-        }
-      },
-      parallax: {
-        type: "scroll",
-        levels: [
-          5,
-          10,
-          15,
-          20,
-          25,
-          30,
-          35,
-          40,
-          45,
-          50,
-          55,
-          60,
-          65,
-          70,
-          75,
-          80,
-          85
-        ],
-        origo: "enterpoint",
-        speed: 600,
-        bgparallax: "on",
-        disable_onmobile: "on"
-      },
+    // $("#slider4").revolution({
+    //   sliderType: "standard",
+    //   sliderLayout: "fullwidth",
+    //   autoHeight: "off",
+    //   delay: 9000,
+    //   navigation: {
+    //     keyboardNavigation: "on",
+    //     keyboard_direction: "horizontal",
+    //     mouseScrollNavigation: "off",
+    //     onHoverStop: "on",
+    //     touch: {
+    //       touchenabled: "on",
+    //       swipe_treshold: 75,
+    //       swipe_min_touches: 1,
+    //       drag_block_vertical: false,
+    //       swipe_direction: "horizontal"
+    //     },
+    //     arrows: {
+    //       style: "hades",
+    //       enable: false,
+    //       hide_onmobile: true,
+    //       hide_onleave: true,
+    //       tmp: "",
+    //       left: {
+    //         h_align: "left",
+    //         v_align: "center",
+    //         h_offset: 10,
+    //         v_offset: 0
+    //       },
+    //       right: {
+    //         h_align: "right",
+    //         v_align: "center",
+    //         h_offset: 10,
+    //         v_offset: 0
+    //       }
+    //     },
+    //     bullets: {
+    //       style: "",
+    //       enable: false,
+    //       hide_onmobile: true,
+    //       hide_onleave: true,
+    //       hide_delay: 200,
+    //       hide_delay_mobile: 1200,
+    //       hide_under: 0,
+    //       hide_over: 9999,
+    //       direction: "horizontal",
+    //       h_align: "center",
+    //       v_align: "bottom",
+    //       space: 7,
+    //       h_offset: 4,
+    //       v_offset: 40,
+    //       tmp:
+    //         '<span class="tp-bullet-image"></span><span class="tp-bullet-title"></span>'
+    //     }
+    //   },
+    //   parallax: {
+    //     type: "scroll",
+    //     levels: [
+    //       5,
+    //       10,
+    //       15,
+    //       20,
+    //       25,
+    //       30,
+    //       35,
+    //       40,
+    //       45,
+    //       50,
+    //       55,
+    //       60,
+    //       65,
+    //       70,
+    //       75,
+    //       80,
+    //       85
+    //     ],
+    //     origo: "enterpoint",
+    //     speed: 600,
+    //     bgparallax: "on",
+    //     disable_onmobile: "on"
+    //   },
 
-      lazyType: "smart",
-      disableProgressBar: "on",
-      responsiveLevels: [4096, 1024, 778, 480],
-      gridwidth: [1140, 800, 750, 480],
-      gridheight: [800, 600, 980, 700]
-    });
+    //   lazyType: "smart",
+    //   disableProgressBar: "on",
+    //   responsiveLevels: [4096, 1024, 778, 480],
+    //   gridwidth: [1140, 800, 750, 480],
+    //   gridheight: [800, 600, 980, 700]
+    // });
 
     /* Image cache */
     $(".gallery-item").each(function() {
@@ -200,28 +200,28 @@
 
   $(document).ready(function() {
     /* Isotope Portfolio */
-    (function() {
-      var grid = $(".grid").isotope({
-        itemSelector: ".grid-item",
-        percentPosition: true,
-        masonry: {
-          // use outer width of grid-sizer for columnWidth
-          columnWidth: ".grid-sizer"
-        }
-      });
+    // (function() {
+    //   var grid = $(".grid").isotope({
+    //     itemSelector: ".grid-item",
+    //     percentPosition: true,
+    //     masonry: {
+    //       // use outer width of grid-sizer for columnWidth
+    //       columnWidth: ".grid-sizer"
+    //     }
+    //   });
 
-      grid.imagesLoaded(function() {
-        grid.isotope();
-      });
+    //   grid.imagesLoaded(function() {
+    //     grid.isotope();
+    //   });
 
-      grid.isotope({ filter: "*" });
+    //   grid.isotope({ filter: "*" });
 
-      // filter items on button click
-      $("#isotope-filters").on("click", "a", function() {
-        var filterValue = $(this).attr("data-filter");
-        grid.isotope({ filter: filterValue });
-      });
-    })();
+    //   // filter items on button click
+    //   $("#isotope-filters").on("click", "a", function() {
+    //     var filterValue = $(this).attr("data-filter");
+    //     grid.isotope({ filter: filterValue });
+    //   });
+    // })();
 
     // Sidebar
     $("#wrapper").on("click", "#menu-toggle", function(e) {
@@ -235,66 +235,66 @@
     });
 
     // Parallax
-    $("#insert").parallax("50%", 0.3);
+    // $("#insert").parallax("50%", 0.3);
 
     // Goal Progress
-    $("#proto").goalProgress({
-      goalAmount: 600,
-      currentAmount: 436,
-      textBefore: "",
-      textAfter: " projects"
-    });
-    $("#develop").goalProgress({
-      goalAmount: 1000,
-      currentAmount: 885,
-      textBefore: "",
-      textAfter: " projects"
-    });
-    $("#design").goalProgress({
-      goalAmount: 1000,
-      currentAmount: 374,
-      textBefore: "",
-      textAfter: " projects"
-    });
-    $("#testing").goalProgress({
-      goalAmount: 1000,
-      currentAmount: 672,
-      textBefore: "",
-      textAfter: " projects"
-    });
+    // $("#proto").goalProgress({
+    //   goalAmount: 600,
+    //   currentAmount: 436,
+    //   textBefore: "",
+    //   textAfter: " projects"
+    // });
+    // $("#develop").goalProgress({
+    //   goalAmount: 1000,
+    //   currentAmount: 885,
+    //   textBefore: "",
+    //   textAfter: " projects"
+    // });
+    // $("#design").goalProgress({
+    //   goalAmount: 1000,
+    //   currentAmount: 374,
+    //   textBefore: "",
+    //   textAfter: " projects"
+    // });
+    // $("#testing").goalProgress({
+    //   goalAmount: 1000,
+    //   currentAmount: 672,
+    //   textBefore: "",
+    //   textAfter: " projects"
+    // });
 
     /* Animated Counter */
-    $(".count-container span").counterUp({
-      delay: 10, // the delay time in ms
-      time: 3000 // the speed time in ms
-    });
+    // $(".count-container span").counterUp({
+    //   delay: 10, // the delay time in ms
+    //   time: 3000 // the speed time in ms
+    // });
 
     /* Magnific Popup */
-    $(".gallery-item").magnificPopup({
-      type: "image",
-      gallery: {
-        enabled: true
-      }
-    });
+    // $(".gallery-item").magnificPopup({
+    //   type: "image",
+    //   gallery: {
+    //     enabled: true
+    //   }
+    // });
 
     // Owl Carousel
 
-    $(".owl-carousel").owlCarousel({
-      items: 4,
-      loop: true,
-      nav: true,
-      navText: [
-        "<i class='fa fa-angle-left' aria-hidden='true'></i>",
-        "<i class='fa fa-angle-right' aria-hidden='true'></i>"
-      ],
-      dots: true,
-      margin: 10,
-      autoplay: true,
-      autoplayTimeout: 11000,
-      autoplayHoverPause: true,
-      autoplaySpeed: 1250,
-      autoHeight: true
-    });
+    // $(".owl-carousel").owlCarousel({
+    //   items: 4,
+    //   loop: true,
+    //   nav: true,
+    //   navText: [
+    //     "<i class='fa fa-angle-left' aria-hidden='true'></i>",
+    //     "<i class='fa fa-angle-right' aria-hidden='true'></i>"
+    //   ],
+    //   dots: true,
+    //   margin: 10,
+    //   autoplay: true,
+    //   autoplayTimeout: 11000,
+    //   autoplayHoverPause: true,
+    //   autoplaySpeed: 1250,
+    //   autoHeight: true
+    // });
 
     /* Contact Form */
     (function() {
