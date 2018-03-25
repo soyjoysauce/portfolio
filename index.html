@@ -13,12 +13,12 @@
 <!-- JS -->
 
 <!-- Latest compiled and minified CSS BOOTSTRAP-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous"> -->
 
 <!-- CSS -->
-<!-- <link href="assets/vendor/bootstrap/css/bootstrap.min.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"
-/> -->
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"
+/>
 <link href="assets/vendor/pe-icon-7-stroke/css/pe-icon-7-stroke.css" property='stylesheet' rel="stylesheet" type="text/css"
     media="screen" />
 <link href="assets/vendor/mfp/css/magnific-popup.min.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"
@@ -36,6 +36,7 @@
 <link href="assets/custom/css/style.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen" />
 <link href="assets/custom/css/soy_style.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen" />
 </head>
+
 <body class="">
     <!--Pre-Loader-->
     <div id="preloader">
@@ -141,19 +142,20 @@
             <!-- Content Sections -->
             <div id="content">
                 <!-- Revolution Slider THIS IS FOR TEMPLATE- commented out to clean js dependencies-->
-                <!-- <section class="slider-revolution">
+                <section class="slider-revolution">
                     <div class="rev_slider_wrapper">
 
                         <div id="slider1" class="rev_slider head-overlay" data-version="5.0">
                             <ul id="div_carousel">
-                                START SLIDE (15 images)
-                                End of Slide Show
+                                START SLIDE (15 images) End of Slide Show
                             </ul>
                             <div class="tp-bannertimer"></div>
                         </div>
                     </div>
-                </section> -->
-                <section class="carousel_section col-sm-12 col-md-12 col-lg-12">
+                </section>
+                <!-- /Revolution Slider -->
+                <!-- this  is the beginning of the simple carousel I added to remove js dependencies-->
+                <!-- <section class="carousel_section col-sm-12 col-md-12 col-lg-12">
                     <div class="carousel_box buttons col-sm-12 col-md-12 col-lg-12">
                         <button class="prev col-sm-1  col-md-1 col-lg-1">
                             ◀
@@ -166,8 +168,8 @@
                             <span class="offscreen">Next</span>
                         </button>
                     </div>
-                </section>
-                <!-- /Revolution Slider -->
+                </section> -->
+                <!-- /this  is the end of the simple carousel I added to remove js dependencies-->
                 <!-- Services Block -->
                 <section id="services" class="e-block-regular e-block-centered services-block">
                     <div class="container-fluid padding-side-50">
@@ -405,34 +407,33 @@
     </div>
     <div id="image-cache" class="hidden"></div>
     <!-- JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <!-- Custom scripts -->
-    <script src="assets/custom/js/main.js" type="text/javascript"></script>
-    <script src="assets/custom/js/script.js" type="text/javascript"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
 
-    <!-- <script src="assets/vendor/animatedheader/js/modernizr.custom.js"></script> -->
-    <!-- <script src="assets/vendor/jquery/js/jquery-2.2.0.min.js" type="text/javascript"></script> -->
-    <!-- <script src="assets/vendor/animatedheader/js/classie.js"></script> -->
-    <!-- <script src="assets/vendor/animatedheader/js/cbpAnimatedHeader.min.js"></script> -->
-    <!-- <script type="text/javascript" src="assets/vendor/imagesloaded/js/imagesloaded.pkgd.min.js"></script> -->
-    <!-- <script type="text/javascript" src="assets/vendor/isotope/js/isotope.pkgd.min.js"></script> -->
-    <!-- <script type="text/javascript" src="assets/vendor/jquery-parallax/js/jquery.parallax-1.1.3.js"></script> -->
-    <!-- <script src="assets/vendor/mfp/js/jquery.magnific-popup.min.js" type="text/javascript"></script> -->
-    <!-- <script src="assets/vendor/anicounter/jquery.counterup.min.js" type="text/javascript"></script> -->
-    <!-- <script src="assets/vendor/circle-progress/circle-progress.min.js" type="text/javascript"></script> -->
-    <!-- <script src="assets/vendor/waypoints/waypoints.min.js" type="text/javascript"></script> -->
-    <!-- <script src="assets/vendor/goalprogress/goalProgress.min.js" type="text/javascript"></script> -->
-    <!-- <script src="assets/vendor/owl-carousel/owl.carousel.js" type="text/javascript"></script> -->
-    <!-- <script type="text/javascript" src="assets/vendor/rs-plugin/js/jquery.themepunch.tools.min.js?rev=5.0"></script> -->
-    <!-- <script type="text/javascript" src="assets/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js?rev=5.0"></script> -->
-    <!-- <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="assets/vendor/animatedheader/js/modernizr.custom.js"></script>
+    <script src="assets/vendor/jquery/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="assets/vendor/animatedheader/js/classie.js"></script>
+    <script src="assets/vendor/animatedheader/js/cbpAnimatedHeader.min.js"></script>
+    <script type="text/javascript" src="assets/vendor/imagesloaded/js/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="assets/vendor/isotope/js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="assets/vendor/jquery-parallax/js/jquery.parallax-1.1.3.js"></script>
+    <script src="assets/vendor/mfp/js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+    <script src="assets/vendor/anicounter/jquery.counterup.min.js" type="text/javascript"></script>
+    <script src="assets/vendor/circle-progress/circle-progress.min.js" type="text/javascript"></script>
+    <script src="assets/vendor/waypoints/waypoints.min.js" type="text/javascript"></script>
+    <script src="assets/vendor/goalprogress/goalProgress.min.js" type="text/javascript"></script>
+    <script src="assets/vendor/owl-carousel/owl.carousel.js" type="text/javascript"></script>
+    <script type="text/javascript" src="assets/vendor/rs-plugin/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+    <script type="text/javascript" src="assets/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+    <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
     <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
     <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
     <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
     <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
-    <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.video.min.js"></script> -->
-
+    <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
+    <!-- Custom scripts -->
+    <script src="assets/custom/js/script.js" type="text/javascript"></script>
+    <script src="assets/custom/js/main.js" type="text/javascript"></script>
 </body>
 
 </html>
